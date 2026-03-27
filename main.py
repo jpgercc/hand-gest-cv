@@ -5,7 +5,7 @@ Dependencies:
     pip install opencv-python mediapipe numpy
 
 Run:
-    python mudra_cv.py
+    python main.py
 """
 
 from __future__ import annotations
