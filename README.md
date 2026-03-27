@@ -1,6 +1,8 @@
 # hand-gest-cv | branch: main (mudras)
 Small Python/Mediapipe prototype that recognizes a handful of hand mudras and communicative gestures in real time from a webcam feed.
 
+![Image](https://github.com/user-attachments/assets/fbc31b82-97df-4c3c-9816-7f49b95214fa)
+
 ## Purpose
 Capture a webcam stream, run MediaPipe’s `HandLandmarker` to extract joint positions, compute simple geometric heuristics, and label each hand as one of several predefined mudras or gestures. The overlay provides immediate visual feedback, so the leap from detection to interaction stays in real time.
 
